@@ -1,0 +1,33 @@
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    background-color: #F2EEE7; /* Consistent background color */
+    color: #373B4D; /* Harmonious text color */
+    font-family: 'Georgia', serif; /* Consistent font */
+    text-align: center;
+}
+
+.section-title {
+    font-size: 48px; 
+    color: #435892; /* Consistent title color */
+    margin-bottom: 20px; /* Reduced margin */
+}
+
+.social-icons {
+    display: flex;
+    gap: 20px; /* Space between icons */
+    justify-content: center; /* Center icons horizontally */
+}
+
+.social-icon img {
+    width: 40px; /* Icon size */
+    height: 40px; /* Icon size */
+    transition: transform 0.3s; /* Animation on hover */
+}
+
+.social-icon img:hover {
+    transform: scale(1.1); /* Slightly enlarge on hover */
+}

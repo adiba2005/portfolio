@@ -1,0 +1,78 @@
+.achievements-skills-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    background-color: #F2EEE7; /* Consistent background color */
+    color: #373B4D; /* Harmonious text color */
+    font-family: 'Georgia', serif; /* Consistent font */
+    text-align: center;
+}
+
+.section-title {
+    font-size: 48px;
+    color: #435892; /* Consistent title color */
+    margin-bottom: 40px;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px; /* Space between cards */
+    flex-wrap: wrap; /* Wrap to next line on smaller screens */
+}
+
+.skills-card {
+    background-color: #ffffff; /* Slightly off-white for a softer look */
+    border-radius: 15px; /* Consistent border radius */
+    padding: 20px; /* Padding for card */
+    width: 320px; /* Width of card */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.skills-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.skills-title {
+    font-size: 24px; /* Decreased title size for better fit */
+    color: #435892; /* Consistent title color */
+    margin-bottom: 10px;
+}
+
+.skills-list {
+    list-style-type: none; /* Remove default list style */
+    padding: 0; /* Remove padding */
+}
+
+.skills-list li {
+    font-size: 16px; /* Font size for list items */
+    color: #373B4D; /* Harmonious text color */
+    margin-bottom: 5px; /* Spacing between list items */
+}
+
+.achievements-section {
+    margin-top: 40px; /* Space above achievements section */
+    text-align: left; /* Left align for better readability */
+    max-width: 600px; /* Max width for achievements */
+}
+
+.achievements-title {
+    font-size: 30px; /* Title size */
+    color: #435892; /* Title color */
+    margin-bottom: 20px; /* Spacing below title */
+}
+
+.achievements-list {
+    list-style-type: none; /* Remove default list style */
+    padding: 0; /* Remove padding */
+}
+
+.achievements-list li {
+    font-size: 16px; /* Font size for achievements */
+    color: #373B4D; /* Harmonious text color */
+    margin-bottom: 10px; /* Spacing between achievements */
+}

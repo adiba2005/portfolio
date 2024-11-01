@@ -1,0 +1,108 @@
+.projects-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: auto; /* Allow height to adjust based on content */
+  padding: 40px;
+  background-color: #F2EEE7; /* Consistent background color */
+  color: #373B4D; /* Harmonious text color */
+  font-family: 'Georgia', serif; /* Consistent font */
+  text-align: center;
+}
+
+.projects-title {
+  font-size: 48px; 
+  color: #435892; /* Consistent title color */
+  margin-bottom: 40px;
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px; /* Reduced gap for a tighter layout */
+}
+
+.project-card {
+  background-color: #ffffff; /* Slightly off-white for a softer look */
+  border-radius: 15px; /* Consistent border radius */
+  padding: 20px; /* Adjusted padding for more compact cards */
+  width: 320px; /* Default width for larger screens */
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.project-title {
+  font-size: 30px; /* Increased font size for better impact */
+  color: #435892; /* Consistent title color */
+  margin-bottom: 10px;
+}
+
+.project-description {
+  font-size: 16px; /* Adjusted font size for a more compact look */
+  line-height: 1.6; 
+  color: #373B4D;
+  margin-bottom: 10px;
+}
+
+.project-languages {
+  font-size: 16px; /* Smaller font size for languages */
+  color: #BCAA8A; /* Consistent color for languages */
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+  .projects-section {
+      padding: 20px; /* Adjust padding for smaller screens */
+  }
+
+  .projects-title {
+      font-size: 36px; /* Reduce title size */
+      margin-bottom: 20px; /* Adjust margin */
+  }
+
+  .project-card {
+      width: 90%; /* Make card width responsive */
+      max-width: 320px; /* Limit maximum width */
+  }
+
+  .project-title {
+      font-size: 24px; /* Adjust project title size */
+  }
+
+  .project-description {
+      font-size: 14px; /* Reduce description size */
+  }
+
+  .project-languages {
+      font-size: 14px; /* Adjust languages size */
+  }
+}
+
+@media (max-width: 480px) {
+  .projects-title {
+      font-size: 28px; /* Further reduce title size */
+  }
+
+  .project-card {
+      width: 95%; /* Use full width for very small screens */
+  }
+
+  .project-title {
+      font-size: 20px; /* Adjust project title size */
+  }
+
+  .project-description {
+      font-size: 12px; /* Further reduce description size */
+  }
+
+  .project-languages {
+      font-size: 12px; /* Further adjust languages size */
+  }
+}
