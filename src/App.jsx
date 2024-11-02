@@ -18,7 +18,7 @@ function App() {
             <ul className="nav-links">
               <li><a href="#/about">About Me</a></li>
               <li><a href="#/projects">Projects</a></li>
-              <li><a href="#/achievements-skills">Achievements, Skills</a></li>
+              <li><a href="#/achievements-skills">Achievements-Skills</a></li>
               <li><a href="#/contact">Contact</a></li>
             </ul>
           </nav>
@@ -28,7 +28,7 @@ function App() {
           <Route path="/" element={<About />} />
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
-          <Route path="/achievements-skills" element={<AchievementsSkills />} />
+          <Route path="/achievements-skills" element={<AchievementsAndSkills />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
