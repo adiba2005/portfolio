@@ -4,7 +4,7 @@ import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
 import About from './About';
 import Projects from './Projects';
-import AchievementsSkills from './AchievementsAndSkills';
+import AchievementsAndSkills from './AchievementsAndSkills';
 import Contact from './Contact';
 
 function App() {
